@@ -1,0 +1,110 @@
+title{
+	text-transform: uppercase;
+}
+/* h1{
+	background-color: pink;
+	border-radius: 15px;
+	text-align: center;
+	border-width: 45px;
+	width: 520px;
+	
+} */
+ul{
+	display: flex;
+	/* background-color: orange; */
+	margin: 50px;
+	color:black;
+	border-bottom: darksalmon dashed;
+	border-right: darksalmon dashed;
+
+	background-color: white;
+	box-shadow: 12px 12px 2px 1px rgba(252, 229, 26, 0.911);	
+	
+}
+ul:hover{
+	/* border-bottom: darksalmon dashed;
+	border-right: darksalmon dashed; */
+
+}
+li{
+	justify-content: space-between;
+	width: 500px;
+	list-style: none;
+	margin: 20px;
+	color:black;
+	
+}
+a{
+	text-decoration: none;
+	margin: none;
+	/* text-decoration:  blue 5px underline; */
+
+	color: black;
+}
+body{
+	background-color: rgb(250, 250, 250);
+	color: black;
+}
+li:hover{
+	font-size: 25px;
+	transition:ease 0.4s;
+	text-transform: uppercase;
+	margin-right: 20px;
+	/* text-decoration: underline solid yellow 2px; */
+	margin-left: 50px;
+	/* width: ; */
+}
+a:hover{
+	font-size: 25px;
+	transition:ease 0.4s;
+	text-transform: uppercase;
+	margin-right: 20px;
+	/* text-decoration: underline solid yellow 2px; */
+	margin-left: 50px;
+	/* width: ; */
+}
+.image{
+	width: 18px;
+	height: 18px;
+	margin-top: 10px;
+}
+.image:hover{
+	font-size: 25px;
+	transition:ease 0.4s;
+	text-transform: uppercase;
+	margin-right: 20px;
+	/* text-decoration: underline solid yellow 2px; */
+	margin-left: 50px;
+	/* width: ; */
+}
+
+.est{
+margin-right: 500px;
+font-size: 20px;
+text-transform: uppercase;
+margin-top: 19px;
+/* text-decoration:  rgb(255, 230, 3) 9px underline; */
+}
+
+button{
+	font-size: x-large;
+	border-radius: 25px ;
+	text-align: center;
+	border-top: darksalmon dashed;
+	justify-content: center;
+	border-bottom: darksalmon dashed;
+	margin-top: 400px;
+	text-transform: capitalize;
+	margin-left: 50%;
+	width: auto;
+	display: flex;
+}
+button:hover{
+	border: 1px;
+	background-color: white ;
+	border: black dashed;
+	background-color: rgb(245, 233, 70);
+	text-transform: capitalize;
+	transition: ease-in-out 0.5s;
+
+}
